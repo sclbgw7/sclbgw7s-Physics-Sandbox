@@ -400,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: 026cc76a27504474583496deda1da059, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!65 &410754801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -556,6 +557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 0}
+  CameraTrans: {fileID: 963194228}
 --- !u!65 &688792386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -869,6 +871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: c83ce5a9c47acad46af35f56a1bda14f, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!1 &796194121
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,6 +921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: c83ce5a9c47acad46af35f56a1bda14f, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!54 &796194124
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1047,6 +1051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 1
   DefaultMaterial: {fileID: 2100000, guid: 999dfcf616d78a745abfc1cf4a73f3f6, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!54 &824548921
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1174,6 +1179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: bbb095a6d5a080644abe17bdaa06fad2, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!54 &885885507
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1582,6 +1588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: 4202f2ab2105fbf48a8609612917a7ae, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!1 &1118488660
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,6 +1701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 1
   DefaultMaterial: {fileID: 2100000, guid: 999dfcf616d78a745abfc1cf4a73f3f6, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!54 &1118488666
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1837,6 +1845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: bbb095a6d5a080644abe17bdaa06fad2, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!1 &1503352884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,6 +2115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HaveGravitation: 0
   DefaultMaterial: {fileID: 2100000, guid: 4202f2ab2105fbf48a8609612917a7ae, type: 2}
+  CameraTrans: {fileID: 0}
 --- !u!114 &1714674457
 MonoBehaviour:
   m_ObjectHideFlags: 0

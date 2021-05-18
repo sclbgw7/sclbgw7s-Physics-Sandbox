@@ -13,7 +13,7 @@ public class GeneralController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Physics.queriesHitTriggers = false;
     }
 
     // Update is called once per frame

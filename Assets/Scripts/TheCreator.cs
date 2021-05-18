@@ -50,7 +50,7 @@ public class TheCreator : MonoBehaviour
             Sample[currentObject].GetComponent<MeshRenderer>().material = TransparentGrey;
         }
         //instantiate
-        if(Input.GetKeyDown(KeyCode.Mouse0)) {
+        if(Input.GetMouseButtonDown(0)) {
             GameObject newObject = Instantiate(Sample[currentObject], Sample[currentObject].transform.position, Sample[currentObject].transform.rotation);
             newObject.GetComponent<MeshRenderer>().material = newObject.GetComponent<PhysicsObject>().DefaultMaterial;
             newObject.GetComponent<Collider>().isTrigger = false;
@@ -73,7 +73,6 @@ public class TheCreator : MonoBehaviour
             case 2:
                 BCL = Sample[currentObject].GetComponent<BoxCollider>();
                 others = Physics.OverlapBox(BCL.transform.position, BCL.transform.localScale / 2, BCL.transform.rotation);
-                Debug.Log($"{BCL.transform.localScale.x} {BCL.transform.localScale.y} {BCL.transform.localScale.z}");
                 break;
             case 3:// TO BE FIXED!!!
                 CCL = Sample[currentObject].GetComponent<CapsuleCollider>();
@@ -89,10 +88,13 @@ public class TheCreator : MonoBehaviour
                 others = null;
                 break;
         }
-        foreach(Collider other in others) {
+        /*foreach(Collider other in others) {
+            Debug.Log(other.isTrigger);
             if(other.isTrigger == false)
                 return true;
-        }
+        }*/
+        if(others.Length != 0)
+            return true;
         return false;
     }
 }
